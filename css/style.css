@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Akaya Telvigala";
+  src: url(../fonts/AkayaTelivigala-Regular.ttf);
+}
+
+button {
+  font-family: "Akaya Telvigala";
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.colorpalette {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+}
+
+.button {
+  border-radius: 5px;
+  width: 110px;
+  font-size: 20px;
+  font-weight: bold;
+  border-width: 2px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 12px;
+  background-color: white;
+  cursor: pointer;
+}
